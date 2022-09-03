@@ -69,3 +69,9 @@ A complete list of commands can be found in the [documentation](docs/commands/)
 * Special thanks to [@Androzz](https://github.com/Androz2091/AtlantaBot) for the [dashboard](https://github.com/Androz2091/AtlantaBot) and his other cool discord bot projects
 * Feel free to [Fork](https://github.com/Khanmanan/automod-bot/fork) this repository, create a feature branch and submit a pull request
 * You can check all the planned features [here](https://github.com/Khanmanan/automod-bot/projects) or make a request for one at our discord
+
+
+<a href="https://heroku.com/deploy?template=https://github.com/Trentyn/ModbotDS">
+    <img src="https://www.herokucdn.com/deploy/button.svg" width="180">
+  </a>
+ 
