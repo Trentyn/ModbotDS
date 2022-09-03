@@ -1,0 +1,54 @@
+{
+    "name": "DS modbot",
+    "description": "",
+    "keywords": [
+        "bot"
+    ],
+    "repository": "",
+    "website": "",
+    "success_url": "",
+    "env": {
+        "BOT_TOKEN": {
+            "description": ""
+        },
+        "MONGO_CONNECTION": {
+            "description": ""
+        },
+        "BOT_SECRET": {
+            "description": "",
+            "required": false
+        },
+        "SESSION_PASSWORD": {
+            "description": "",
+            "required": false
+        },
+        "WEATHERSTACK_KEY": {
+            "description": ""
+        },
+        "SPOTIFY_CLIENT_ID": {
+            "description": ""
+        },
+        "SPOTIFY_CLIENT_SECRET": {
+            "description": ""
+        },
+        "ERROR_LOGS": {
+            "description": "ID of a Channel",
+            "required": false
+        },
+        "JOIN_LEAVE_LOGS": {
+            "description": "Logs Channel ID",
+            "required": false
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
